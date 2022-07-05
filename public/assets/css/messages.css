@@ -1,0 +1,29 @@
+.message{
+    min-width: 20vw;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 15px;
+    color: #000;
+    transition: all 0.5s;
+    background: #ffff00;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+}
+
+.message.error,
+.message.success{
+    background: #ffff00;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.message p{
+    margin-left: 10px;
+}

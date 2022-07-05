@@ -1,0 +1,54 @@
+.join-container{
+    margin-top: 60px;
+    background: linear-gradient(to top left, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.9)),url('/assets/images/who-we-are-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.join-container .form-container{
+    padding: 60px;
+}
+
+.form{
+    background-color: #fff;
+    padding: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40vw;
+    margin: 0px auto;
+}
+
+.form h1{
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.form p{
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+
+@media(max-width: 966px){
+    .form{
+        width: 70vw;
+    }
+    .form-group{
+        width: 60vw;
+    }
+}
+
+@media(max-width: 360px){
+    .form{
+        width: 90vw;
+    }
+    .form-group{
+        width: 80vw;
+    }
+    .join-container .form-container{
+        padding: 10px;
+    }
+}

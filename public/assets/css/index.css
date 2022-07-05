@@ -1,0 +1,494 @@
+p{
+    font-size: 14px;
+}
+
+/*input{*/
+/*    padding: 10px 15px;*/
+/*}*/
+
+.jumbotron{
+    margin-top: 60px;
+    width: 100vw;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#map{
+    width: 60vw;
+    height: 100%;
+}
+
+.jumbotron .content{
+    max-width: 60vw;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-left: 5vw;
+}
+
+.jumbotron .content .header-text{
+    margin-bottom: 30px;
+    font-size: 36px;
+    background-color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    opacity: 0.9;
+}
+.jumbotron .content span{
+    font-size: 46px;
+    white-space: normal;
+    font-weight: 600;
+    background-color: white;
+    color: black;
+    /*line-height: 100px;*/
+    text-transform: uppercase;
+    /*box-decoration-break: clone;*/
+    padding: 10px 20px;
+}
+
+
+.subscriptons{
+    background-color: #000;
+    padding: 30px;
+    display: flex;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subscriptons .text{
+    position: relative;
+    width: 30vw;
+}
+
+.subscriptons .text h2{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+
+
+@supports(scroll-snap-stop: always) {
+    .no-support {
+      display: none;
+    }
+  }
+
+/* about styles */
+.about{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    scroll-margin: 10px;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+}
+
+.about.yellow{
+    background-color: yellow;
+}
+    .about .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vh;
+}
+
+.about .work{
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    margin: 30px;
+    width: 30vw;
+}
+
+.card{
+    width: 30vw;
+    background: #000;
+    color: #fff;
+    padding: 15px 30px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    display: grid;
+    grid-template-columns: 0.15fr 0.85fr;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.card .text h3{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.card .text p{
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+
+
+.about .heading h2{
+    margin-bottom: 15px;
+}
+
+.about .video{
+    position: relative;
+    height: 65vh;
+    background-color: #000;
+    margin: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .video video{
+    height: 100%;
+    object-fit: cover;
+}
+
+video::-webkit-media-controls {
+    display:none !important;
+  }
+
+.video .controls{
+	position: absolute;
+	width: 95%;
+	bottom: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.video .controls .speaker,
+.video .controls .play_pause{
+    width: 35px;
+    height: 35px;
+    background-color: #ffff00;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.video .controls .speaker ion-icon,
+.video .controls .play_pause ion-icon{
+    font-size: 18px;
+}
+
+input[type="range"]:focus{
+	outline: none;
+}
+input[type="range"]{
+	width: 100%;
+	transition: all 0.5s;
+	opacity: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.slider{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background: #ccc;
+	border-radius: 25px;
+}
+
+.slider .slider-fill{
+	background-color: #ffff00;
+	width: 0px;
+	height: 5px;
+	border-radius: 25px;
+}
+input[type="range"]::-webkit-slider-thumb{
+	margin-top: -6px;
+}
+.slider-thumb{
+	position: absolute;
+	left: 0;
+	transform: translateX(-50%);
+	height: 20px;
+	width: 20px;
+	background-color: #ffff00;
+	border-radius: 50%;
+	cursor: pointer;
+	border: 2px solid #000;
+	/* transition: all 0.5s; */
+	pointer-events: none;
+}
+input[type="range"]::-webkit-slider-runnable-track{
+	width: 100%;
+	height: 5px;
+	background: #ccc;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+.slider{
+	width: 85%;
+	position: relative;
+	border-radius: 25px;
+}
+
+
+
+.page p{margin: 15px 0px;}
+.page h3{
+    margin: 15px 0px;
+}
+
+.page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+    background-color: #f2f2f2;
+    width: 100vw;
+}
+
+
+.page .image{
+    width: 40vw;
+    min-height: 60vh;
+    height: 60vh;
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.page .container{
+    width: 90vw;
+}
+
+.how-we-work{
+    background: linear-gradient(to top left, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.9)),url('/assets/images/who-we-are-2.jpg') no-repeat center center /cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.row{
+    padding: 15px;
+    background-color: white;
+    align-items: stretch;
+    justify-content: space-around;
+    align-self: center;
+    display: flex;
+}
+
+.row .work-card{
+    background-color: #fff;
+    color: #000000;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin: 15px;
+    width: 30vw;
+    height: auto;
+    transition: ease-in-out 0.5s;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.row .work-card:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
+.work-card .tag{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: yellow;
+}
+
+#work .image img{
+    width: 100%;
+}
+
+.row .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row .title .icon{
+    width: 45px;
+}
+
+
+.page.contact{
+    background: #fff;
+}
+
+.form-group{
+    width: 28vw;
+}
+
+input,
+.form-group textarea{
+    width: 100%;
+    padding: 18px 23px;
+    background: #f2f2f2;
+    border: none;
+    outline: none;
+}
+
+.form-group textarea{
+    padding: 15px;
+    resize: none;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.form-group input:focus,
+.form-group textarea:focus{
+    border: #000 solid 1px;
+}
+
+
+.staff-row{
+    display: grid;
+    grid-template-column: 1fr 1fr;
+}
+
+
+@media(max-width: 960px){
+    .jumbotron .content{
+        max-width: 90vw;
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+@media(max-width: 768px){
+    .jumbotron{
+        margin-top: 60px;
+        height: calc(100vh - 60px);
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    /*.jumbotron .content{*/
+    /*    width: 90vw;*/
+    /*    padding: 20px;*/
+    /*}*/
+    
+    .jumbotron .content .header-text{
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .jumbotron .content span{
+        font-size: 26px;
+        line-height: 75px;
+    }
+
+    .subscriptons{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .subscriptons .text{
+        width: 90vw;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .subscriptons .form{text-align: center;}
+
+    .row{
+        flex-direction: column;
+    }
+
+
+    .row .work-card{
+        width: 80vw;
+    }
+
+    .row .work-card .text{
+        font-size: 13px;
+    }
+
+    #work{
+        text-align: center;
+    }
+
+    #work .text{
+        width: 80vw;
+        margin: 0 auto;
+    }
+    #work h2{
+        font-size: 26px;
+    }
+
+    #work p{
+        font-size: 13px;
+    }
+
+
+    .about .video {
+        height: auto;
+        width: 90vw;
+    }
+
+    .video .controls .speaker, .video .controls .play_pause {
+        width: 25px;
+        height: 25px;
+    }
+
+    .slider {width: 73%; }
+
+    .slider-thumb{
+        height: 15px;
+        width: 15px;
+    }
+
+    .about .video video {width: 100%; }
+
+    .card{
+        width: 90vw;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .page{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        padding: 15px;
+    }
+
+    #map{
+        width: 100%;
+        height: 100%;
+    }
+
+    .page .image{
+        width: 100%;
+    }
+
+    .form-group{
+        width: 90vw;
+    }
+
+}
