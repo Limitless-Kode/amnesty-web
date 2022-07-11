@@ -37,67 +37,19 @@
 @endsection
 @section('content')
     <div class="owl-carousel owl-theme">
-        <div class="jumbotron" style="background: url('/assets/images/bg.jpg') center center /cover;">
+
+        @foreach($slides as $slide)
+        <div class="jumbotron" style="background: url('{{$slide->image}}') center center /cover;">
             <div class="content">
              <div class="header-text">
-                 Amnesty International Ghana
+                 {{ $slide->name }}
              </div>
              <div class="button">
-                 <a href="/#about" class="btn btn-primary">Get Started</a>
+                 <a href="{{$slide->link}}" class="btn btn-primary"> {{ $slide->link_text }}</a>
              </div>
             </div>
          </div>
-         
-         
-         
-         
-         <div class="jumbotron" style="background: url('/assets/images/youth_camp.jpg') center center /cover;">
-            <div class="content">
-             <div class="header-text">
-                 Youth Camp May 2022, Addressing Youth unemployment through human rights
-             </div>
-             <div class="button">
-                 <a href="https://forms.gle/J4UyEZEFLNUXYVg96" target="_blank" class="btn btn-primary">Apply Now</a>
-             </div>
-            </div>
-         </div>
-         
-         
-         
-         
-         <div class="jumbotron" style="background: url('/assets/images/bg_3.jpg') center center /cover;">
-            <div class="content">
-             <div class="header-text">
-                 The State of Ghana's Human Rights Draft
-             </div>
-             <div class="button">
-                 <a href="https://amnestyghana.org/resources/documents" class="btn btn-primary">Download Document</a>
-             </div>
-            </div>
-         </div>
-         
-         <div class="jumbotron" style="background: url('/assets/images/bg_1.jpg') center center /cover;">
-            <div class="content">
-             <div class="header-text">
-                 Public Statement: Amnesty International Ghana Calls For Thorough Investigation Into Ejura Shooting And Killings
-             </div>
-             <div class="button">
-                 <a href="https://amnestyghana.org/resources/documents" class="btn btn-primary">Download Documents</a>
-             </div>
-            </div>
-         </div>
-         
-         <div class="jumbotron" style="background: url('/assets/images/bg_2.jpg') center center /cover;">
-            <div class="content">
-             <div class="header-text">
-                 2021 Human Rights Youth Camp
-             </div>
-             <div class="button">
-                 <a href="https://forms.gle/qZZH77NXSnjbdLYy6" target="_blank" class="btn btn-primary">Register Here</a>
-             </div>
-            </div>
-         </div>
-         
+        @endforeach         
          
     </div>
     <div class="subscriptons">

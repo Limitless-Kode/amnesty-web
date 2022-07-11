@@ -8,7 +8,8 @@ class PagesController extends Controller
 {
     public function index()
     {
-        return view('pages.index');
+        $slides = Slide::where('deleted', '=', 0)->get();
+        return view('pages.index', ['slides' => $slides]);
     }
 
     public function join()
