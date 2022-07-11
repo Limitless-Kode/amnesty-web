@@ -42,7 +42,7 @@
         <div class="jumbotron" style="background: url('{{$slide->image}}') center center /cover;">
             <div class="content">
              <div class="header-text">
-                 {{ $slide->name }}
+                 {{ $slide->title }}
              </div>
              <div class="button">
                  <a href="{{$slide->link}}" class="btn btn-primary"> {{ $slide->link_text }}</a>
