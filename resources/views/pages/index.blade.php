@@ -1,7 +1,7 @@
 @extends('layouts.page')
 @section('title', 'Amnesty Ghana')
 @section('styles')
-<link rel="stylesheet" href={{asset("assets/css/index.css")}}>   
+<link rel="stylesheet" href={{asset("assets/css/index.css")}}>
 <link rel="stylesheet" href={{asset("assets/lib/owlcarousel/dist/assets/owl.carousel.min.css")}}>
 <link rel="stylesheet" href={{asset("assets/lib/owlcarousel/dist/assets/owl.theme.default.min.css")}}>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -30,7 +30,7 @@
                 items:1,
                 stagePadding:30,
                 smartSpeed:450
-                
+
             });
         });
     </script>
@@ -49,8 +49,8 @@
              </div>
             </div>
          </div>
-        @endforeach         
-         
+        @endforeach
+
     </div>
     <div class="subscriptons">
         <div class="text">
@@ -87,7 +87,7 @@
                     </div>
                 </div>
             </div>
-    
+
             <div class="body">
                 <div class="card">
                     <div class="icon">
@@ -98,7 +98,7 @@
                         <p>Since 1961, we have been working to support people to claim their rights all over the world. </p>
                     </div>
                 </div>
-    
+
                 <div class="card">
                     <div class="icon">
                         <ion-icon name="shapes-outline" size="large"></ion-icon>
@@ -108,7 +108,7 @@
                         <p>We advocate human rights and campaign in many areas from the death penalty to freedom of expression. </p>
                     </div>
                 </div>
-    
+
                 <div class="card">
                     <div class="icon">
                         <ion-icon name="person-add-outline" size="large"></ion-icon>
@@ -119,24 +119,24 @@
                         <a href="/join" class="md-btn-primary btn">JOIN US</a>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
     <div class="page align-left" id="work">
        <div class="text">
         <h2>A movement of millions fighting for human rights</h2>
-        <p>All people have fundamental human rights. But those rights are abused or denied every single day. 
-            When that happens, Amnesty International finds the facts, exposes what’s happening, and rallies people together 
+        <p>All people have fundamental human rights. But those rights are abused or denied every single day.
+            When that happens, Amnesty International finds the facts, exposes what’s happening, and rallies people together
             to force governments and others to respect everyone’s human rights.
         </p>
         <p>
-            And we get results. Last year alone, Amnesty International helped free 153 people who were wrongfully imprisoned 
-            because of who they are or what they believe – and we changed laws in dozens of countries on refugees, reproductive 
-            rights, LGBT equality, free speech, the death penalty, and other critical human rights issues. 
+            And we get results. Last year alone, Amnesty International helped free 153 people who were wrongfully imprisoned
+            because of who they are or what they believe – and we changed laws in dozens of countries on refugees, reproductive
+            rights, LGBT equality, free speech, the death penalty, and other critical human rights issues.
         </p>
         <p>
-            From start to finish, our work focuses on the individual – people whose human rights are abused, and people 
+            From start to finish, our work focuses on the individual – people whose human rights are abused, and people
             who have the power to change the world. We received the Nobel Peace Prize for our life-saving work.
         </p>
         <a href="/join" class="btn btn-primary">Join us Fight Injustice</a>
@@ -159,12 +159,12 @@
                        <h3>Research</h3>
                    </div>
                    <div class="text">
-                       <p>Our crisis response teams and researchers travel to affected areas around the world to uncover individual 
-                           human rights abuses and document patterns of abuse. 
+                       <p>Our crisis response teams and researchers travel to affected areas around the world to uncover individual
+                           human rights abuses and document patterns of abuse.
                        </p>
                    </div>
                 </div>
-   
+
                 <div class="work-card">
                    <div class="title">
                        <div class="icon">
@@ -173,12 +173,12 @@
                        <h3>Mobilization</h3>
                    </div>
                    <div class="text">
-                       <p>Our campaign teams use this research to educate the public about human rights abuses – and they give 
+                       <p>Our campaign teams use this research to educate the public about human rights abuses – and they give
                            members and grassroots activists the information and tools they need to demand that human rights be protected.
                        </p>
                    </div>
                 </div>
-   
+
                 <div class="work-card">
                    <div class="title">
                        <div class="icon">
@@ -188,8 +188,8 @@
                    </div>
                    <div class="text">
                        <p>
-                           Our staff and volunteer leaders engage in direct advocacy with policymakers at the state level in Ghana 
-                           while we rally grassroots activists to demand that policymakers protect human rights in Ghana and around 
+                           Our staff and volunteer leaders engage in direct advocacy with policymakers at the state level in Ghana
+                           while we rally grassroots activists to demand that policymakers protect human rights in Ghana and around
                            the world.
                        </p>
                    </div>
@@ -197,13 +197,13 @@
             </div>
         </div>
     </div>
-    
+
     <div class="page align-left">
         <div class="container">
             <h2>The Roles Of Board Members</h2>
             <p>Amnesty International’s uniquely effective approach for protecting human rights uses a three-pronged approach:</p>
             <div class="row">
-                
+
                 <div class="work-card">
                    <div class="title">
                        <div class="text">
@@ -213,13 +213,13 @@
                    </div>
                    <div class="text">
                        <p>
-                           Convenes meetings with the board and settles the agenda with the board secretary. Presides over meetings. Serves as AI's spokesperson. 
+                           Convenes meetings with the board and settles the agenda with the board secretary. Presides over meetings. Serves as AI's spokesperson.
                            Provides policy and organizational leadership for AI Ghana in collaboration with other elected officers. Selects delegates for meetings.Oversees every Expenditure.
                            He also performs all duties incidental to the office of the Chairperson.
                        </p>
                    </div>
                 </div>
-                
+
                 <div class="work-card">
                    <div class="title">
                        <div class="text">
@@ -235,7 +235,7 @@
                        </p>
                    </div>
                 </div>
-                
+
                 <div class="work-card">
                    <div class="title">
                        <div class="text">
@@ -245,13 +245,13 @@
                    </div>
                    <div class="text">
                        <p>
-                           Receives all revenue on behalf of AI Ghana. Keeps all financial records. Provides a general supervision of the financial situation of AIG. Prepares and presents quarterly financial 
+                           Receives all revenue on behalf of AI Ghana. Keeps all financial records. Provides a general supervision of the financial situation of AIG. Prepares and presents quarterly financial
                            reports to the Board. Acts as a conduit between the Board and the members of AI Ghana on financial questions. Leads all fundraising activities on behalf of AI Ghana.
                            Performs any other duties that may be assigned to her by the Board or the Chairperson
                        </p>
                    </div>
                 </div>
-                
+
                 <div class="work-card">
                    <div class="title">
                        <div class="text">
@@ -261,8 +261,8 @@
                    </div>
                    <div class="text">
                        <p>
-                           Documents minutes of all meetings. Keeps all records of the Board. Verifies the records, keeps a register of the addresses of each member. 
-                           Takes charge of the membership books unless otherwise stated by the board. Liaises with the Chairperson and circulates agendas, circulars and notices 
+                           Documents minutes of all meetings. Keeps all records of the Board. Verifies the records, keeps a register of the addresses of each member.
+                           Takes charge of the membership books unless otherwise stated by the board. Liaises with the Chairperson and circulates agendas, circulars and notices
                            to Board Members.
                            Prepares and presents annual reports, annual/quarterly/monthly plans and programmes to the Board of Trustees.
                            Signs with the Chairperson any or all certificates of membership of AI Ghana.
@@ -270,7 +270,7 @@
                        </p>
                    </div>
                 </div>
-                
+
                 <div class="work-card">
                    <div class="title">
                        <div class="text">
@@ -286,130 +286,130 @@
                        </p>
                    </div>
                 </div>
-                
-                
-  
+
+
+
             </div>
         </div>
     </div>
-    
-    
-    
-    
-    
-    <div class="page align-left">
-        <div class="container">
-            <h2>Staff Roles</h2>
-            <p>Roles assigned to the current Amnesty Internatonal Ghana Staff:</p>
-            <div class="row">
-                
-                <div class="work-card">
-                   <div class="title">
-                       <div class="text">
-                           <h3>Frank Kwaku Doyi</h3>
-                           <div class="tag">Executive Director</div>
-                       </div>
-                   </div>
-                   <div class="text">
-                       <p>
-                           The Director is be responsible for the direct line management of relevant jobs within the structure of Amnesty International Ghana 
-                           and has overall accountability for effective line management of all posts within AI Ghana. 
-                           Delivering on human rights change goals in and from Ghana, the Director is responsible for developing, 
-                           coordinating and implementing strategies, operational plans and budgets for the work of the organization towards the establishment 
-                           and development of an effective community at large.
-                       </p>
-                   </div>
-                </div>
-                
-                <div class="work-card">
-                   <div class="title">
-                       <div class="text">
-                           <h3>Hannah Osei</h3>
-                           <div class="tag">Human Rights Education And Activism Coordinator</div>
-                       </div>
-                   </div>
-                   <div class="text">
-                       <p>
-                           Responsible for the design and implementation of Human rights Education, Activism and Youth programmes. 
-                           Coordinates the daily activities related to human rights education, activism and youth participation.
-                           Developing Human Rights Education strategy and activity plans within AI Ghana’s strategic framework and agreed priorities;
-                           Writes reports on all HRE and Youth programmes and activities to the Director.
-                       </p>
-                   </div>
-                </div>
-                
-                <div class="work-card">
-                   <div class="title">
-                       <div class="text">
-                           <h3>Samuel Komla Agbotsey</h3>
-                           <div class="tag">Campaign and Fundraising Coordinator</div>
-                       </div>
-                   </div>
-                   <div class="text">
-                       <p>
-                          He is responsible for organizing and coordinating the strategic campaign projects and activities with the purpose of 
-                          raising funds. Developing fundraising Strategies for implementation, Writing proposals and develop materials to submit 
-                          to granting or other funding organizations,  
-                       </p>
-                   </div>
-                </div>
-                
-                <div class="work-card">
-                   <div class="title">
-                       <div class="text">
-                           <h3>Mabel Hlordzi</h3>
-                           <div class="tag">Accounts Officer</div>
-                       </div>
-                   </div>
-                   <div class="text">
-                       <p>
-                           Under the supervision of the Director, the Accounts Officer is responsible for the following duties: 
-                           Financial Record Keeping, Financial Monitoring and Reporting, Payment for goods & Services, Budget Planning & Monitoring.
-                           Keeping track of national and related international financial policies, obligations/requirements and advising the Director for appropriate action
-                       </p>
-                   </div>
-                </div>
-                
-                <div class="work-card">
-                   <div class="title">
-                       <div class="text">
-                           <h3>Juliet S. A . Kaingbanja</h3>
-                           <div class="tag">Administrative Officer</div>
-                       </div>
-                   </div>
-                   <div class="text">
-                       <p>
-                           Providing administrative support to the office; Organising filing and retrieval systems, maintain records including electronic database of members, 
-                           local groups, supporters, human rights defenders and partner organisations in the country, 
-                           type and photocopy materials, organise and minute staff meetings, and provide other logistical support for the office;
-                       </p>
-                   </div>
-                </div>
-                
-                <div class="work-card">
-                   <div class="title">
-                       <div class="text">
-                           <h3>Richmond Afful</h3>
-                           <div class="tag">Accounts and Administrative Assistant</div>
-                       </div>
-                   </div>
-                   <div class="text">
-                       <p>
-                           Providing support to the Accounts and Administrative Officers;
-                           Help to organise filing and retrieval systems, maintain records including electronic database of members, local groups, supporters, human rights 
-                           defenders and partner organisations in the country, 
-                           Support the Administrative Officer to train, allocate tasks to and supervise volunteers and interns within the office;
-                       </p>
-                   </div>
-                </div>
-  
-            </div>
-        </div>
-    </div>
-    
-    
-    
-    
+
+
+
+
+
+{{--    <div class="page align-left">--}}
+{{--        <div class="container">--}}
+{{--            <h2>Staff Roles</h2>--}}
+{{--            <p>Roles assigned to the current Amnesty Internatonal Ghana Staff:</p>--}}
+{{--            <div class="row">--}}
+{{--                --}}
+{{--                <div class="work-card">--}}
+{{--                   <div class="title">--}}
+{{--                       <div class="text">--}}
+{{--                           <h3>Frank Kwaku Doyi</h3>--}}
+{{--                           <div class="tag">Executive Director</div>--}}
+{{--                       </div>--}}
+{{--                   </div>--}}
+{{--                   <div class="text">--}}
+{{--                       <p>--}}
+{{--                           The Director is be responsible for the direct line management of relevant jobs within the structure of Amnesty International Ghana --}}
+{{--                           and has overall accountability for effective line management of all posts within AI Ghana. --}}
+{{--                           Delivering on human rights change goals in and from Ghana, the Director is responsible for developing, --}}
+{{--                           coordinating and implementing strategies, operational plans and budgets for the work of the organization towards the establishment --}}
+{{--                           and development of an effective community at large.--}}
+{{--                       </p>--}}
+{{--                   </div>--}}
+{{--                </div>--}}
+{{--                --}}
+{{--                <div class="work-card">--}}
+{{--                   <div class="title">--}}
+{{--                       <div class="text">--}}
+{{--                           <h3>Hannah Osei</h3>--}}
+{{--                           <div class="tag">Human Rights Education And Activism Coordinator</div>--}}
+{{--                       </div>--}}
+{{--                   </div>--}}
+{{--                   <div class="text">--}}
+{{--                       <p>--}}
+{{--                           Responsible for the design and implementation of Human rights Education, Activism and Youth programmes. --}}
+{{--                           Coordinates the daily activities related to human rights education, activism and youth participation.--}}
+{{--                           Developing Human Rights Education strategy and activity plans within AI Ghana’s strategic framework and agreed priorities;--}}
+{{--                           Writes reports on all HRE and Youth programmes and activities to the Director.--}}
+{{--                       </p>--}}
+{{--                   </div>--}}
+{{--                </div>--}}
+{{--                --}}
+{{--                <div class="work-card">--}}
+{{--                   <div class="title">--}}
+{{--                       <div class="text">--}}
+{{--                           <h3>Samuel Komla Agbotsey</h3>--}}
+{{--                           <div class="tag">Campaign and Fundraising Coordinator</div>--}}
+{{--                       </div>--}}
+{{--                   </div>--}}
+{{--                   <div class="text">--}}
+{{--                       <p>--}}
+{{--                          He is responsible for organizing and coordinating the strategic campaign projects and activities with the purpose of --}}
+{{--                          raising funds. Developing fundraising Strategies for implementation, Writing proposals and develop materials to submit --}}
+{{--                          to granting or other funding organizations,  --}}
+{{--                       </p>--}}
+{{--                   </div>--}}
+{{--                </div>--}}
+{{--                --}}
+{{--                <div class="work-card">--}}
+{{--                   <div class="title">--}}
+{{--                       <div class="text">--}}
+{{--                           <h3>Mabel Hlordzi</h3>--}}
+{{--                           <div class="tag">Accounts Officer</div>--}}
+{{--                       </div>--}}
+{{--                   </div>--}}
+{{--                   <div class="text">--}}
+{{--                       <p>--}}
+{{--                           Under the supervision of the Director, the Accounts Officer is responsible for the following duties: --}}
+{{--                           Financial Record Keeping, Financial Monitoring and Reporting, Payment for goods & Services, Budget Planning & Monitoring.--}}
+{{--                           Keeping track of national and related international financial policies, obligations/requirements and advising the Director for appropriate action--}}
+{{--                       </p>--}}
+{{--                   </div>--}}
+{{--                </div>--}}
+{{--                --}}
+{{--                <div class="work-card">--}}
+{{--                   <div class="title">--}}
+{{--                       <div class="text">--}}
+{{--                           <h3>Juliet S. A . Kaingbanja</h3>--}}
+{{--                           <div class="tag">Administrative Officer</div>--}}
+{{--                       </div>--}}
+{{--                   </div>--}}
+{{--                   <div class="text">--}}
+{{--                       <p>--}}
+{{--                           Providing administrative support to the office; Organising filing and retrieval systems, maintain records including electronic database of members, --}}
+{{--                           local groups, supporters, human rights defenders and partner organisations in the country, --}}
+{{--                           type and photocopy materials, organise and minute staff meetings, and provide other logistical support for the office;--}}
+{{--                       </p>--}}
+{{--                   </div>--}}
+{{--                </div>--}}
+{{--                --}}
+{{--                <div class="work-card">--}}
+{{--                   <div class="title">--}}
+{{--                       <div class="text">--}}
+{{--                           <h3>Richmond Afful</h3>--}}
+{{--                           <div class="tag">Accounts and Administrative Assistant</div>--}}
+{{--                       </div>--}}
+{{--                   </div>--}}
+{{--                   <div class="text">--}}
+{{--                       <p>--}}
+{{--                           Providing support to the Accounts and Administrative Officers;--}}
+{{--                           Help to organise filing and retrieval systems, maintain records including electronic database of members, local groups, supporters, human rights --}}
+{{--                           defenders and partner organisations in the country, --}}
+{{--                           Support the Administrative Officer to train, allocate tasks to and supervise volunteers and interns within the office;--}}
+{{--                       </p>--}}
+{{--                   </div>--}}
+{{--                </div>--}}
+{{--  --}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--    --}}
+{{--    --}}
+
+
 
     <div class="page contact">
         <div id="map">
