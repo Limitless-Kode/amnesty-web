@@ -198,100 +198,100 @@
         </div>
     </div>
 
-    <div class="page align-left">
-        <div class="container">
-            <h2>The Roles Of Board Members</h2>
-            <p>Amnesty International’s uniquely effective approach for protecting human rights uses a three-pronged approach:</p>
-            <div class="row">
+{{--    <div class="page align-left">--}}
+{{--        <div class="container">--}}
+{{--            <h2>The Roles Of Board Members</h2>--}}
+{{--            <p>Amnesty International’s uniquely effective approach for protecting human rights uses a three-pronged approach:</p>--}}
+{{--            <div class="row">--}}
 
-                <div class="work-card">
-                   <div class="title">
-                       <div class="text">
-                           <h3>George Benjamin Augustus Aggrey</h3>
-                           <div class="tag">Chairperson</div>
-                       </div>
-                   </div>
-                   <div class="text">
-                       <p>
-                           Convenes meetings with the board and settles the agenda with the board secretary. Presides over meetings. Serves as AI's spokesperson.
-                           Provides policy and organizational leadership for AI Ghana in collaboration with other elected officers. Selects delegates for meetings.Oversees every Expenditure.
-                           He also performs all duties incidental to the office of the Chairperson.
-                       </p>
-                   </div>
-                </div>
+{{--                <div class="work-card">--}}
+{{--                   <div class="title">--}}
+{{--                       <div class="text">--}}
+{{--                           <h3>George Benjamin Augustus Aggrey</h3>--}}
+{{--                           <div class="tag">Chairperson</div>--}}
+{{--                       </div>--}}
+{{--                   </div>--}}
+{{--                   <div class="text">--}}
+{{--                       <p>--}}
+{{--                           Convenes meetings with the board and settles the agenda with the board secretary. Presides over meetings. Serves as AI's spokesperson.--}}
+{{--                           Provides policy and organizational leadership for AI Ghana in collaboration with other elected officers. Selects delegates for meetings.Oversees every Expenditure.--}}
+{{--                           He also performs all duties incidental to the office of the Chairperson.--}}
+{{--                       </p>--}}
+{{--                   </div>--}}
+{{--                </div>--}}
 
-                <div class="work-card">
-                   <div class="title">
-                       <div class="text">
-                           <h3>Elizabeth Comfort Adomaku</h3>
-                           <div class="tag">Vice Chair</div>
-                       </div>
-                   </div>
-                   <div class="text">
-                       <p>
-                           Presides, Assists and Represents the Chairperson in board meetings. Coordinates Membership activities. Oversees the growth in membership, activism and in diversity.
-                           Signs with the Director on behalf of the Board Chair any or all certificates of membership of AIG. Performs any other duties that may be assigned to him/her by the Board or the
-                           Chairperson.
-                       </p>
-                   </div>
-                </div>
+{{--                <div class="work-card">--}}
+{{--                   <div class="title">--}}
+{{--                       <div class="text">--}}
+{{--                           <h3>Elizabeth Comfort Adomaku</h3>--}}
+{{--                           <div class="tag">Vice Chair</div>--}}
+{{--                       </div>--}}
+{{--                   </div>--}}
+{{--                   <div class="text">--}}
+{{--                       <p>--}}
+{{--                           Presides, Assists and Represents the Chairperson in board meetings. Coordinates Membership activities. Oversees the growth in membership, activism and in diversity.--}}
+{{--                           Signs with the Director on behalf of the Board Chair any or all certificates of membership of AIG. Performs any other duties that may be assigned to him/her by the Board or the--}}
+{{--                           Chairperson.--}}
+{{--                       </p>--}}
+{{--                   </div>--}}
+{{--                </div>--}}
 
-                <div class="work-card">
-                   <div class="title">
-                       <div class="text">
-                           <h3>Cynthia Adu Darko</h3>
-                           <div class="tag">Treasurer</div>
-                       </div>
-                   </div>
-                   <div class="text">
-                       <p>
-                           Receives all revenue on behalf of AI Ghana. Keeps all financial records. Provides a general supervision of the financial situation of AIG. Prepares and presents quarterly financial
-                           reports to the Board. Acts as a conduit between the Board and the members of AI Ghana on financial questions. Leads all fundraising activities on behalf of AI Ghana.
-                           Performs any other duties that may be assigned to her by the Board or the Chairperson
-                       </p>
-                   </div>
-                </div>
+{{--                <div class="work-card">--}}
+{{--                   <div class="title">--}}
+{{--                       <div class="text">--}}
+{{--                           <h3>Cynthia Adu Darko</h3>--}}
+{{--                           <div class="tag">Treasurer</div>--}}
+{{--                       </div>--}}
+{{--                   </div>--}}
+{{--                   <div class="text">--}}
+{{--                       <p>--}}
+{{--                           Receives all revenue on behalf of AI Ghana. Keeps all financial records. Provides a general supervision of the financial situation of AIG. Prepares and presents quarterly financial--}}
+{{--                           reports to the Board. Acts as a conduit between the Board and the members of AI Ghana on financial questions. Leads all fundraising activities on behalf of AI Ghana.--}}
+{{--                           Performs any other duties that may be assigned to her by the Board or the Chairperson--}}
+{{--                       </p>--}}
+{{--                   </div>--}}
+{{--                </div>--}}
 
-                <div class="work-card">
-                   <div class="title">
-                       <div class="text">
-                           <h3>Maame Akosua Asare Addai</h3>
-                           <div class="tag">Secretary</div>
-                       </div>
-                   </div>
-                   <div class="text">
-                       <p>
-                           Documents minutes of all meetings. Keeps all records of the Board. Verifies the records, keeps a register of the addresses of each member.
-                           Takes charge of the membership books unless otherwise stated by the board. Liaises with the Chairperson and circulates agendas, circulars and notices
-                           to Board Members.
-                           Prepares and presents annual reports, annual/quarterly/monthly plans and programmes to the Board of Trustees.
-                           Signs with the Chairperson any or all certificates of membership of AI Ghana.
-                           Performs any other duties that may be assigned to her by the Board or by the Chairperson from time to time
-                       </p>
-                   </div>
-                </div>
+{{--                <div class="work-card">--}}
+{{--                   <div class="title">--}}
+{{--                       <div class="text">--}}
+{{--                           <h3>Maame Akosua Asare Addai</h3>--}}
+{{--                           <div class="tag">Secretary</div>--}}
+{{--                       </div>--}}
+{{--                   </div>--}}
+{{--                   <div class="text">--}}
+{{--                       <p>--}}
+{{--                           Documents minutes of all meetings. Keeps all records of the Board. Verifies the records, keeps a register of the addresses of each member.--}}
+{{--                           Takes charge of the membership books unless otherwise stated by the board. Liaises with the Chairperson and circulates agendas, circulars and notices--}}
+{{--                           to Board Members.--}}
+{{--                           Prepares and presents annual reports, annual/quarterly/monthly plans and programmes to the Board of Trustees.--}}
+{{--                           Signs with the Chairperson any or all certificates of membership of AI Ghana.--}}
+{{--                           Performs any other duties that may be assigned to her by the Board or by the Chairperson from time to time--}}
+{{--                       </p>--}}
+{{--                   </div>--}}
+{{--                </div>--}}
 
-                <div class="work-card">
-                   <div class="title">
-                       <div class="text">
-                           <h3>Gloria Chinaemerem Emeka</h3>
-                           <div class="tag">Vice Secretary</div>
-                       </div>
-                   </div>
-                   <div class="text">
-                       <p>
-                           Assists the Board Secretary in the performance of her duties.
-                           Performs the role of the Board Secretary in her absence.
-                           Performs any other duties that may be assigned to her by the Board.
-                       </p>
-                   </div>
-                </div>
+{{--                <div class="work-card">--}}
+{{--                   <div class="title">--}}
+{{--                       <div class="text">--}}
+{{--                           <h3>Gloria Chinaemerem Emeka</h3>--}}
+{{--                           <div class="tag">Vice Secretary</div>--}}
+{{--                       </div>--}}
+{{--                   </div>--}}
+{{--                   <div class="text">--}}
+{{--                       <p>--}}
+{{--                           Assists the Board Secretary in the performance of her duties.--}}
+{{--                           Performs the role of the Board Secretary in her absence.--}}
+{{--                           Performs any other duties that may be assigned to her by the Board.--}}
+{{--                       </p>--}}
+{{--                   </div>--}}
+{{--                </div>--}}
 
 
 
-            </div>
-        </div>
-    </div>
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
 
 
